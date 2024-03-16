@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+.game {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin: 20px auto; 
+  width: 320px; 
+}
+
+.square {
+  background-color: #ddd;
+  border: 1px solid #999;
+  font-size: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+
